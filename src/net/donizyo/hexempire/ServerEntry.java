@@ -15,4 +15,5 @@ public final class ServerEntry {
 
 	public native void process(ClientHandler handler, int command);
 
+	protected static native void destroyEngine();
 }

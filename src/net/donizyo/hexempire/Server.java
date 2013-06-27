@@ -85,6 +85,7 @@ public class Server implements Runnable, Communication, Configuration {
 			System.out.println("Finished.");
 			System.out.println("======================================");
 		}
+		ServerEntry.destroyEngine();
 	}
 
 	public boolean send(char id, int command) {
